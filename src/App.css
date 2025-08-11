@@ -21,6 +21,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    min-width: 320px;
 }
 
 .starIcon{
@@ -45,7 +46,7 @@ h1{
 p{
     font-size: .875rem;
     color: #9EA6B3;
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 1.75;
     margin-top: -12px;
 }
@@ -68,6 +69,14 @@ p{
 
 button{
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: white;
+    color: #212832;
 }
 
 form{
@@ -91,6 +100,12 @@ form{
 .p-thx{
     color: hsl(25, 97%, 53%);
     background-color: #272E38;
-    padding: 2px 16px;
+    padding: 5px 16px 3px 16px;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+
 }
+

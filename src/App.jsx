@@ -46,6 +46,7 @@ function App() {
         rating = element.rating
       }  
     });
+    console.log(rating)
     setSubmittedRating(rating)
   }
   
@@ -63,7 +64,7 @@ function App() {
         <img src={starIcon} className='starIcon' alt=''/>
       </div>
       <h1>How did we do?</h1>
-      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering.</p>
         <div className='ratingBtn-container'>
           {ratingObj && ratingObj.map((ratingElem, index)=><RatingButton 
               rating={ratingElem.rating}
