@@ -10,7 +10,7 @@
 
 .selected{
     color: #3E0F00;
-    background-color: #FB7713;
+    background-color: hsl(25, 97%, 53%);
 }
 
 main{
@@ -53,7 +53,7 @@ p{
 .submit-btn{
     height: 48px;
     color: #3E0F00;
-    background-color: #FB7713;
+    background-color: hsl(25, 97%, 53%);
     border: none;
     border-radius: 48px;
     font-weight: 700;
@@ -89,7 +89,7 @@ form{
 }
 
 .p-thx{
-    color: #FB7713;
+    color: hsl(25, 97%, 53%);
     background-color: #272E38;
     padding: 2px 16px;
     border-radius: 16px;
