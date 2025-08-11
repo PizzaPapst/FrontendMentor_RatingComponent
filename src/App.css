@@ -1,0 +1,96 @@
+.rating-btn{
+    width: 48px;
+    height: 48px;
+    color: #9EA6B3;
+    border-radius: 40px;
+    border: none;
+    background-color: #272E38;
+    font-size: 1rem;
+}
+
+.selected{
+    color: #3E0F00;
+    background-color: #FB7713;
+}
+
+main{
+    background-color: #212832;
+    padding: 24px;
+    border-radius: 32px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.starIcon{
+    width: 16px;
+}
+
+.starIcon-container{
+    display: flex;
+    padding: 16px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #272E38;
+}
+
+h1{
+    font-size: 1.75rem;
+}
+
+p{
+    font-size: .875rem;
+    color: #9EA6B3;
+    font-weight: lighter;
+    line-height: 1.75;
+    margin-top: -12px;
+}
+
+.submit-btn{
+    height: 48px;
+    color: #3E0F00;
+    background-color: #FB7713;
+    border: none;
+    border-radius: 48px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.ratingBtn-container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.main-thx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-thx > p{
+    text-align: center;
+    margin: 0;
+    max-width: 300px;
+}
+
+.p-thx{
+    color: #FB7713;
+    background-color: #272E38;
+    padding: 2px 16px;
+    border-radius: 16px;
+}
